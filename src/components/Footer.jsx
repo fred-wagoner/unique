@@ -50,4 +50,4 @@ function Footer() {
   )
 }
 
-export default Footergit
+export default Footer
