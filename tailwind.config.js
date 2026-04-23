@@ -10,7 +10,7 @@ export default {
         'themeyellow': '#a69f7d',
         alexbrush: ['Alex Brush', 'cursive'],
         abel: ['Abel','sans-serif'],
-        playwrite: ['Playwrite NZ Guides', 'cursiver'],
+        playwrite: ['Playwrite NZ Guides', 'cursive'],
       },
     }, 
   },
