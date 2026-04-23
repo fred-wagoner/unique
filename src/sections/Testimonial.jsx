@@ -12,7 +12,7 @@ const clients = [
   title: 'Chris P.',
   color: 'red-500',
   letter: 'C',
-  para: 'The best therapeutic experience ever had. Leaving his chair you will have an higher self-esteem and peace of mind.',
+  para: 'The best Event and it look successful. Leaving his chair you wiltl have an higher self-esteem and peace of mind.',
 },
 {
   image: client2,
