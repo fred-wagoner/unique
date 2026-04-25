@@ -36,7 +36,7 @@ const navItems = [
         <h1 className=' font-[abel] text-white text-6xl italics'>Unique Boutique</h1>
       </div>
 
-      <ul className='lg:flex gap-10 hidden'>
+      <ul className='lg:flex  gap-10 hidden'>
         {navItems.map(({ link, path }) => (
           <Link key={path} className='text-white uppercase font-semibold
           cursor-pointer p-3 rounded-lg hover:bg-[#a39446] hover:text-black'
@@ -45,12 +45,13 @@ const navItems = [
       </ul>
 
       {/* mobile menu start here*/}
-      <div className='flex justify-center items-center lg:hidden' 
+      <div className='flex justify-center items-center border-2 border-black  p-5 lg:hidden' 
       onClick={toggleMenu}>
-        <div>
+        <div className='flex-row'>
           {isMenuOpen ? <FaXmark className='text-white text-2xl 
           cursor-pointer' /> : <FaBars className='font-[abel] text-white text-2xl 
           cursor-pointer'  />}
+          <span className='text-xl text-black'>Menu</span>
         </div>
       </div>
 
