@@ -22,7 +22,7 @@ const WhyChoose = () => {
     <>
      <section id='shopping' className='w-full md:px-20 px-10 
     md:py-20 py-10 flex flex-col justify-center items-center gap-24'>
-      <h1 data-aos="zoom-in" className='font-[abel] text-3xl text-black text-center md:textt-8xl'
+      <h1 data-aos="zoom-in" className='font-[abel] text-4xl text-black text-center md:textt-8xl'
       >Shop By Scent</h1>
     </section>
         <div className='w-full m-auto p-10 flex flex-col justify-center items-center'>
