@@ -45,7 +45,7 @@ const clients = [
     py-4 pt-6 flex flex-col justify-between items-center gap-6 bg-white'>
     <h1 data-aos="zoom-in" className='font-[abel] text-6xl text-black text-center md:textt-8xl'
       >Testimonials</h1>
-    <p data-aos="zoom-in" className='text-xl p-6font-[abel]'>
+    <p data-aos="zoom-in" className='text-xl p-6 font-[abel]'>
       Testimonial for a barber shop who will highlight client satisfaction, specific services, the overall experience, 
       and the atmosphere of the shop.
     </p>
