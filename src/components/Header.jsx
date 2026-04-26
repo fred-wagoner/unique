@@ -45,16 +45,15 @@ const navItems = [
       </ul>
 
       {/* mobile menu start here*/}
-      <div className='flex justify-center items-center border-2 border-black  p-5 lg:hidden' 
+      <div className='flex justify-center items-center border-[3px] border-gray-500 p-3 lg:hidden' 
       onClick={toggleMenu}>
-        <div className='flex-row'>
+        <div className='flex flex-row gap-2'>
           {isMenuOpen ? <FaXmark className='text-white text-2xl 
           cursor-pointer' /> : <FaBars className='font-[abel] text-white text-2xl 
           cursor-pointer'  />}
-          <span className='text-xl text-black'>Menu</span>
+          <span className='text-xl text-gray-500'>Menu</span>
         </div>
       </div>
-
       <div className={`${isMenuOpen ? 'flex' : 'hidden'} w-full h-fit bg-gray-500
         p-4 absolute top-[80px] left-0`}>
         <ul className='flex flex-col justify-center items-center gap-2 w-full'>
